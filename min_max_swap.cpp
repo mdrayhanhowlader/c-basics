@@ -8,5 +8,7 @@ int main(){
     //     cout << b << " " << a << endl;
     // }
     cout << min(a,b) << " " << max(a,b) << endl;
+    swap(a,b);
+    cout << a << " " << b << endl;
     return 0;
 }
